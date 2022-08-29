@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+/* font-family: Century Gothic; */
+font-size: large;
+}
+header{
+    background-image: url("./Kaffio_img/bg_22.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: -415px;
+    word-spacing: 2px;
+    
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px,10px;
+    transition: 0.6s ase;
+    padding-right: 1px;
+    /* word-spacing: 5px; */
+    /* margin-right: 10px; */
+    /* float: right; */
+    
+}
+ul li a:hover{
+  color: gold;
+ background-color: black;
+ border: 2px solid black;
+ text-decoration:underline white;
+}
+.logo{
+    position: absolute;
+    left:20%;
+    
+    top: 10%;
+    transform:translate(-50%,-50%);
+}
+
+logo h{
+    /* float: left; */
+   width: 200px;
+   height: 400px;
+   padding: 10px;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+   
+.h{
+    color: goldenrod;
+    font-size:60px;
+   /* font-family: "Lucida Console", "Courier New", monospace; */
+padding-top: 50px;
+padding-left: 20px;
+/* font-family: 'Qwitcher Grypen', cursive; */
+/* border-radius: 2px;
+border: solid 1px black; */
+/* border: 1px solid white;
+border-radius: 44px;
+background-color: black; */
+/* text-align: center; */
+margin-left: -215px;
+
+}
+   
+
+ul li.active a{
+
+    color: gold;
+    background-color: black;
+    border: 1px solid white;
+    text-decoration: dashed;
+}
+
+.Main{
+    max-width: 1000px;
+    margin: 25px;
+}
+.title{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    /* color: white; */
+    
+
+}
+.title h1{
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+    /* font */
+}
+.title h3{
+    color: goldenrod;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size:100px;
+    text-align: center;
+}
+.p1{
+    color: white;
+    font-size:x-large;
+    text-align: center;
+
+}
+
+.button{
+
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.btn{
+    /* display: flex;
+    justify-content:center; */
+    border: 1px solid white;
+    padding-top: 12px;
+    padding-left: 13px;
+    /* padding-right: 5px; */
+    text-align:center;
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.btn:hover{
+    color: gold;
+   background-color:black;
+   border: black;
+
+}

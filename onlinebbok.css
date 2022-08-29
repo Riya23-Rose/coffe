@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background-image: url("./Kaffio_img/about1.jpg") ;
+    background-size: cover;
+    background-position:center;
+    height: 300x;
+    width: 50%;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: -415px;
+    word-spacing: 2px;
+    
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px,5px;
+    transition: 0.6s ase;
+    /* ma-right: 1px; */
+    word-spacing: 1px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    /* float: right; */
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+}
+logo .h{
+    /* float: left; */
+   width: 200px;
+   height: 400px;
+   padding: 10px;
+   padding-top: 10px;
+   padding-left: 10px;
+   font-family: 'Qwitcher Grypen', cursive;
+  
+}
+.book-form{
+    width: 350px;
+    margin-top: 630px;
+    margin-left: 25%;
+
+   
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: black;
+
+}
+.book-form h1{
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-family: 'Qwitcher Grypen', cursive;
+    margin: 40px,0;
+    color: goldenrod;
+}
+.book-form p{
+    font-size: 20px;
+    margin: 15px,1px;
+    color: white;
+    margin-left: 10px;
+    /* top: 100%; */
+}
+/* .book-form label{
+    font-size: 20px;
+    margin:15px,0 ;
+} */
+a:hover{
+    color: gold;
+   background-color:black;
+   border: black;
+
+}
+
+
+.h{
+    color: white;
+    font-size:60px;
+   /* font-family: "Lucida Console", "Courier New", monospace; */
+padding-top: -6px;
+padding-left: 20px;
+/* font-family: 'Qwitcher Grypen', cursive; */
+/* border-radius: 2px;
+border: solid 1px black; */
+/* border: 1px solid white;
+border-radius: 44px;
+background-color: black; */
+/* text-align: center; */
+margin-left: -23px;
+font-family: 'Qwitcher Grypen', cursive;
+
+}
+ul li.active a{
+
+    color: gold;
+    background-color: black;
+    border: 1px solid white;
+    text-decoration: dashed;
+}
+.Main{
+    max-width: 1000px;
+    margin: 25px;
+}
+.title{
+    position: absolute;
+    top:58%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    /* color: white; */
+    
+}
+    .title h1{
+        color: white;
+        font-size:xx-large;
+        text-align: center;
+        /* font */
+    }
+    .title h3{
+        color: goldenrod;
+        font-family: 'Qwitcher Grypen', cursive;
+        font-size:120px;
+        text-align: center;
+    }
+    .p1{
+        color: white;
+        font-size:x-large;
+        text-align: center;
+    
+    }
+    main{
+    
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+        /* color: white; */
+        
+    
+    }
+
+
+.book-form input{
+    font-size: 20px;
+    height: 33px;
+    width: 88%;
+    padding: 15px,10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+
+}
+.book-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px,15px;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    margin-left:10px;
+    
+    
+}
+.book-form button:hover{
+    color: gold;
+   background-color:black;
+   border: black;
+
+}
+
